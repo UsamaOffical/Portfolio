@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Typewriter from "typewriter-effect";
+// import Typewriter from "typewriter-effect";
 import heroImage from "@/public/profile/profile2.jpg"
 const Hero = () => {
   return (
@@ -13,7 +13,9 @@ const Hero = () => {
             <p className="text-[#eca400] text-4xl">Hello</p>
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-100">
               I'm
-              <div className="text-[#eca400]">
+              <p className="text-[#eca400] text-4xl">Usama Jameel</p>
+              <p>Web Developer</p>
+              {/* <div className="text-[#eca400]">
                 <Typewriter
                   options={{
                     strings: ["Usama", "Web developer"],
@@ -21,7 +23,7 @@ const Hero = () => {
                     loop: true,
                   }}
                 />
-              </div>
+              </div> */}
               <p className="font-normal mt-3 text-base">I am a student at GIAIC. pursing a course is Artificial Intelligence, Web 3.0 & Metaverse.</p>
               <br className="hidden lg:inline-block" />
             </h1>
